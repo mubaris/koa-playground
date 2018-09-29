@@ -33,6 +33,7 @@ router.post('/analyze', async (ctx, next) => {
         };
     } else {
         // Send error if there's not text property on the body
+        ctx.status = 400;
         ctx.body = {
             "error": "Please provide a text to analyze"
         };
