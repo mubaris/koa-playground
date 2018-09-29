@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "koa": "^2.5.3",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "sentiment": "^5.0.1"
+  }
+}
